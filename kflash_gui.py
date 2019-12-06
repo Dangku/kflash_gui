@@ -236,6 +236,7 @@ class MainWindow(QMainWindow):
         self.boardCombobox.addItem(parameters.M5StickV)
         self.boardCombobox.addItem(parameters.KendryteKd233)
         self.boardCombobox.addItem(parameters.kendryteTrainer)
+        self.boardCombobox.addItem(parameters.BananapiRbxy)
         self.boardCombobox.addItem(parameters.Auto)
         self.burnPositionLabel = QLabel(tr("BurnTo"))
         self.burnPositionCombobox = ComboBox()
@@ -965,6 +966,8 @@ class MainWindow(QMainWindow):
             board = "trainer"
         elif boardText == parameters.M5StickV:
             board = "goE"
+        elif boardText == parameters.BananapiRbxy:
+            board = "bananapi"
         elif boardText == parameters.Auto:
             board = None
 

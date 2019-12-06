@@ -31,6 +31,7 @@ SipeedMaixduino   = "Sipeed Maixduino"
 KendryteKd233     = "Kendryte KD233"
 kendryteTrainer   = "kendryte Trainer"
 M5StickV          = "M5StickV"
+BananapiRbxy      = "Bananapi Rbxy"
 Auto   = "Auto"
 
 # get data path
